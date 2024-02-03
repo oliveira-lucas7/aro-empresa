@@ -1,0 +1,86 @@
+.geral{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.texto{
+    width: 40%;
+}
+
+.texto h1{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+button {
+    margin-top: 4%;
+    width: 10rem;
+    height: 3rem;
+    border: 3px solid #DAA540;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 0.9em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  button:hover {
+    background: #DAA540;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+  }
+
+
+.fundo{
+    background-color: #5b5b5b;
+    border-radius: 100%;
+    position: relative;
+    height: 27rem;
+    width: 27rem;
+}
+
+.fundo img{
+    height: 22rem;
+    width: 22rem;
+    position: initial;
+}
+
+@media screen and (max-width: 425px){
+    .fundo{
+        display: none;
+    }
+    .texto h1{
+        font-size: 12px;
+    }
+    .texto{
+        margin-top: 1.8rem;
+        width: 90%;
+    }
+    button{
+        width: 7rem;
+        height: 1.8rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 768px){
+    .fundo{
+        height: 18rem;
+        width: 18rem;
+        font-size: 8px;
+    }
+
+    .fundo img{
+        height: 13rem;
+        width: 13rem;
+    }
+
+    .texto h1{
+        font-size: 17px;
+    }
+}
+

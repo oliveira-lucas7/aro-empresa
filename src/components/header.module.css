@@ -1,0 +1,31 @@
+.Navegar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5B5B5B;
+}
+
+.Logo img{
+    height: 100px;
+}
+
+Ul{
+    display: flex;
+}
+
+ul li{
+    padding: 10px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+@media screen and (max-width: 768px){
+    .Menu{
+        display: none;
+    }
+}
