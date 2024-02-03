@@ -19,7 +19,7 @@ import Mt from './photos/29 MT.png';
 function Testando() {
   return (
     <Swiper className={Style.carrosel}
-    spaceBetween={80}
+    spaceBetween={30}
     slidesPerView={3}
     breakpoints={{
       320: {
@@ -48,38 +48,38 @@ function Testando() {
       onSlideChange={() => console.log('slide change')}
     >
         <section className={Style.produtos}>
-        <SwiperSlide className={Style.Bar}>
-        <div>
+        <SwiperSlide>
+        <div className={Style.Bar}>
           <img src={Rotor} alt="" />
           <h3>Rotor do motor Pálio Punto</h3>
         </div>
       </SwiperSlide>
-      <SwiperSlide className={Style.Bar}>
-        <div>
+      <SwiperSlide>
+        <div className={Style.Bar}>
           <img src={Corcel} alt="" />
           <h3>Solenóide para motor de Corcel</h3>
         </div>
       </SwiperSlide>
-      <SwiperSlide className={Style.Bar}>
-        <div>
+      <SwiperSlide>
+        <div className={Style.Bar}>
           <img src={Montana} alt="" />
           <h3>Solenóide para motor de Montana</h3>
         </div>
       </SwiperSlide>
-      <SwiperSlide className={Style.Bar}>
-        <div>
+      <SwiperSlide>
+        <div className={Style.Bar}>
           <img src={Perkins} alt="" />
           <h3>Solenóide para motor de trator PKS</h3>
         </div>
       </SwiperSlide>
-      <SwiperSlide className={Style.Bar}>
-        <div>
+      <SwiperSlide>
+        <div className={Style.Bar}>
           <img src={Mt} alt="" />
           <h3>Solenóide para motor do 29MT</h3>
         </div>
       </SwiperSlide>
-      <SwiperSlide className={Style.Bar}>
-        <div>
+      <SwiperSlide>
+        <div className={Style.Bar}>
           <img src={Valvula} alt="" />
           <h3>Valvula do motor da scania</h3>
         </div>
