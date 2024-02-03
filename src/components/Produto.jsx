@@ -12,9 +12,13 @@ function Produtos() {
   return (
     <Swiper
       className={Style.carrosel}
-      spaceBetween={10}
-      slidesPerView={1}
+      spaceBetween={80}
+      slidesPerView={3}
       breakpoints={{
+        425: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
         768: {
           slidesPerView: 2,
           spaceBetween: 20,

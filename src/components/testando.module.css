@@ -1,0 +1,19 @@
+.carrosel{
+    margin-top: 3rem;
+    background-color: #5b5b5b;
+    margin-bottom: 10rem;
+    height: 30rem;
+    display: flex;
+    position: relative;
+}
+
+.Bar{
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    height: 22rem;
+    align-items: center;
+    margin: 3.2% auto;
+    width: 10rem;
+}
+
+

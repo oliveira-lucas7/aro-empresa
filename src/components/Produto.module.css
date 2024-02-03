@@ -1,0 +1,4 @@
+.carrosel{
+    display: flex;
+    flex-direction: row;
+}
