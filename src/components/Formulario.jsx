@@ -15,8 +15,6 @@ function Formulario() {
             return;
         }
 
-        e.preventDefault();
-
         const templateParams = {
             from_name: name,
             email: email
@@ -32,6 +30,7 @@ function Formulario() {
         }, (err) => {
             console.log("Erro", err)
         })
+        e.preventDefault();
 
     }
     
