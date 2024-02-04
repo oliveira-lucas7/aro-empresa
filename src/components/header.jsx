@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from './photos/Logo Aro.png'
-import Style from './Header.module.css'
+import Style from './header.module.css'
 
 function header() {
   return (

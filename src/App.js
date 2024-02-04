@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './components/Header';
+import Header from './components/header';
 import VejaMais from './components/VejaMais';
 import Carrosel from './components/Carrosel'
 import Aviso from './components/Aviso'
