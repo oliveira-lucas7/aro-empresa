@@ -1,7 +1,8 @@
 import './App.css';
-import Header from './components/header';
+import Header from './components/Header';
 import VejaMais from './components/VejaMais';
-import Testando from './components/testando'
+import Carrosel from './components/Carrosel'
+import Aviso from './components/Aviso'
 
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
         <Header></Header>
         <VejaMais></VejaMais>
-        <Testando></Testando>
+        <Carrosel></Carrosel>
+        <Aviso></Aviso>
     </div>
   );
 }

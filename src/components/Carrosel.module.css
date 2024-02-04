@@ -1,7 +1,7 @@
 .carrosel{
     margin-top: 3rem;
     background-color: #5b5b5b;
-    margin-bottom: 10rem;
+    margin-bottom: 1.5%;
     height: 70%;
     display: flex;
     position: relative;
@@ -14,7 +14,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 9.2% auto;
+    margin: 9% auto;
     width: 73%;
 }
 

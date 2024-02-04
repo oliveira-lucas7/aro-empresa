@@ -14,7 +14,7 @@
     margin: 0 auto;
 }
 
-button {
+.vermais {
     margin-top: 4%;
     width: 10rem;
     height: 3rem;
@@ -28,7 +28,7 @@ button {
     font-family: 'Montserrat', sans-serif;
   }
   
-  button:hover {
+  .vermais:hover {
     background: #DAA540;
     color: white;
     font-size: 1.1em;
@@ -61,7 +61,7 @@ button {
         margin-top: 1.8rem;
         width: 90%;
     }
-    button{
+    .vermais{
         width: 7rem;
         height: 1.8rem;
     }

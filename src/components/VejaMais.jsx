@@ -7,7 +7,7 @@ function VejaMais() {
     <section className={Style.geral}>
         <div className={Style.texto}>
             <h1>Induzidos de Qualidade: Transformando Energia em Movimento, Potencializando Seu Mundo!</h1>
-            <button>Veja Mais</button>
+            <button className={Style.vermais}>Veja Mais</button>
         </div>
         <div className={Style.fundo}>
             <img src={Carro} alt="Uma pessoa ao lado do seu carro" />
