@@ -2,7 +2,7 @@ import './App.css';
 import Header from './components/header';
 import VejaMais from './components/VejaMais';
 import Carrosel from './components/Carrosel'
-import Aviso from './components/aviso';
+import Aviso from './components/Avisar';
 import Formulario from './components/Formulario';
 
 function App() {

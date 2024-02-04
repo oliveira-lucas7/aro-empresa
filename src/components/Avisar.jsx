@@ -1,11 +1,11 @@
 import React from 'react'
-import Style from './Aviso.module.css'
+import Style from './Avisar.module.css'
 
-function aviso() {
+function Aviso() {
   return (
     <div className={Style.container}><button className={Style.seravisado}>Ser avisado das promoções</button></div>
     //<div><p>Preencha o formulário abaixo e seja avisado das promoções</p></div>
   )
 }
 
-export default aviso
+export default Aviso;
