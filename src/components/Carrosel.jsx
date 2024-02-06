@@ -33,10 +33,6 @@ function Testando() {
       320: {
         slidesPerView: 1,
         spaceBetween: 20,
-        "--swiper-pagination-color": "display-none",
-        "--swiper-theme-color": "display-none",
-        "--swiper-pagination-bullet-inactive-color": "display-none",
-        "--swiper-pagination-bullet-inactive-opacity": "display-none"
         },
       425: {
         slidesPerView: 1,
