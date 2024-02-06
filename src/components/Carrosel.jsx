@@ -19,12 +19,24 @@ import Mt from './photos/29 MT.png';
 function Testando() {
   return (
     <Swiper className={Style.carrosel}
+
+    style={{
+      "--swiper-pagination-color": "#DAA540",
+      "--swiper-theme-color": "#DAA540",
+      "--swiper-pagination-bullet-inactive-color": "#999",
+      "--swiper-pagination-bullet-inactive-opacity": "1",
+    }}
+
     spaceBetween={30}
     slidesPerView={3}
     breakpoints={{
       320: {
         slidesPerView: 1,
         spaceBetween: 20,
+        "--swiper-pagination-color": "display-none",
+        "--swiper-theme-color": "display-none",
+        "--swiper-pagination-bullet-inactive-color": "display-none",
+        "--swiper-pagination-bullet-inactive-opacity": "display-none"
         },
       425: {
         slidesPerView: 1,
