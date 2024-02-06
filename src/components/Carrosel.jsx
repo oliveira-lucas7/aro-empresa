@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import Style from './Carrosel.module.css';
+import Style from './css/Carrosel.module.css';
 import Rotor from './photos/Rotor.png';
 import Corcel from './photos/Corcel.png';
 import Perkins from './photos/Perkins.png';

@@ -1,5 +1,5 @@
 import React from 'react'
-import Style from './Avisar.module.css'
+import Style from './css/Avisar.module.css'
 
 function Aviso() {
   return (

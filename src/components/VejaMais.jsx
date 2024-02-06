@@ -1,6 +1,6 @@
 import React from 'react'
 import Carro from './photos/Carro.png'
-import Style from './VejaMais.module.css'
+import Style from './css/VejaMais.module.css'
 
 function VejaMais() {
   return (

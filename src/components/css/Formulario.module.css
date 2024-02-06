@@ -10,11 +10,23 @@
     color: white;
 }
 
+.NomeMail{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 40%;
+    padding: 30px;
+    background: transparent;
+    border-bottom: 1px #DAA540;
+}
+
 .text{
     width: 18rem;
     height: 2rem;
     border-radius: 6px;
     border: none;
+    background-color: none;
+    border-bottom: 1px #DAA540;
 }
 
 .TextDuvida{
@@ -25,7 +37,8 @@
 }
 
 .duvida{
-    width: 30rem;
+    width: 56rem;
+    background-color: none;
 }
 
 .checkUm{
@@ -35,27 +48,6 @@
 .checkUm, .checkDois{
     display: flex;
 }
-
-/*.envio {
-    margin-top: 12%;
-    width: 10rem;
-    height: 3rem;
-    border: 3px solid #DAA540;
-    border-radius: 45px;
-    transition: all 0.3s;
-    cursor: pointer;
-    background: white;
-    font-size: 0.9em;
-    font-weight: 550;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .envio:hover {
-    background: #DAA540;
-    color: white;
-    font-size: 1.1em;
-    border: none;
-  }*/
 
   .envio {
     position: relative;
@@ -133,6 +125,9 @@
     }
     h3{
         font-size: 17px;
+    }
+    .NomeMail{
+        flex-direction: column;
     }
 }
 
