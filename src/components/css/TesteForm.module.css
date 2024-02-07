@@ -41,7 +41,8 @@
     width: 96%;
     height: 10rem;
     border-radius: 8px;
-    border: none;
+    border: 1px solid black;
+    background: none;
 }
 
 .duvida{
