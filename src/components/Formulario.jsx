@@ -43,32 +43,30 @@ function Formulario() {
     
   return (
     <form onSubmit={sendEmail} className={Style.Formulario}>
+        <div className={Style.CampoInfos}>
         <h2>Preencha este formuário e tire as suas dúvidas</h2>
-        <div>
             <div className={Style.NomeMail}>
-                <div>
+                <div className={Style.DivInput}>
                     <h3>Insira o seu nome</h3>
                     <input type="text" 
                     className={Style.text}
-                    placeholder='Preencha o seu nome neste campo'
                     onChange={(e) => setName(e.target.value)}
                     value={name}
                     />
                 </div>
-                <div>
+                <div className={Style.DivInput}>
                     <h3>Insira o seu email</h3>
                     <input type="email" 
                     className={Style.text}
                     name="email" 
                     id="" 
-                    placeholder='Preencha o seu email neste campo' 
                     onChange={(e) => setEmail(e.target.value)}
                     value={email}
                     />
                 </div>
             </div>
             <div className={Style.duvida}>
-                <h3>Tire sua dúvida</h3>
+                <h4>Tire sua dúvida</h4>
                 <textarea className={Style.TextDuvida}
                 maxLength={450}
                 name="message" 
