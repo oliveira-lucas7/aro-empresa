@@ -1,10 +1,9 @@
 import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
-  Autoplay,
-  EffectCards,
+	Navigation,
+	Pagination,
+	Scrollbar,
+	A11y,
+	Autoplay,
 } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -26,86 +25,85 @@ import Valvula from "./photos/ValvulaScania.png";
 import Mt from "./photos/29 MT.png";
 
 function Testando() {
-  return (
-    <Swiper
-      className={Style.carrosel}
-      style={{
-        "--swiper-pagination-color": "#DAA540",
-        "--swiper-theme-color": "#DAA540",
-        "--swiper-pagination-bullet-inactive-color": "#999",
-        "--swiper-pagination-bullet-inactive-opacity": "1",
-      }}
-      spaceBetween={30}
-      slidesPerView={3}
-      loop
-      breakpoints={{
-        320: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        425: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        1024: {
-          slidesPerView: 3,
-          spaceBetween: 30,
-        },
-      }}
-      // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-      navigation
-      //effect="fade"
-      autoplay={{ delay: 2000 }}
-      //pagination={{ clickable: true }}
-      //scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
-    >
-      <section className={Style.produtos}>
-        <SwiperSlide>
-          <div className={Style.Bar}>
-            <img src={Rotor} alt="" />
-            <h3>Rotor do motor Pálio Punto</h3>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={Style.Bar}>
-            <img src={Corcel} alt="" />
-            <h3>Solenóide para motor de Corcel</h3>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={Style.Bar}>
-            <img src={Montana} alt="" />
-            <h3>Solenóide para motor de Montana</h3>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={Style.Bar}>
-            <img src={Perkins} alt="" />
-            <h3>Solenóide para motor de trator PKS</h3>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={Style.Bar}>
-            <img src={Mt} alt="" />
-            <h3>Solenóide para motor do 29MT</h3>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={Style.Bar}>
-            <img src={Valvula} alt="" />
-            <h3>Valvula do motor da scania</h3>
-          </div>
-        </SwiperSlide>
-      </section>
-    </Swiper>
-  );
+	return (
+		<Swiper
+			className={Style.carrosel}
+			style={{
+				"--swiper-pagination-color": "#DAA540",
+				"--swiper-theme-color": "#DAA540",
+				"--swiper-pagination-bullet-inactive-color": "#999",
+				"--swiper-pagination-bullet-inactive-opacity": "1",
+			}}
+			spaceBetween={30}
+			slidesPerView={3}
+			loop
+			breakpoints={{
+				320: {
+					slidesPerView: 1,
+					spaceBetween: 20,
+				},
+				425: {
+					slidesPerView: 1,
+					spaceBetween: 20,
+				},
+				768: {
+					slidesPerView: 2,
+					spaceBetween: 20,
+				},
+				1024: {
+					slidesPerView: 3,
+					spaceBetween: 30,
+				},
+			}}
+			// install Swiper modules
+			modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+			navigation
+			//effect="fade"
+			autoplay={{ delay: 2000 }}
+			//pagination={{ clickable: true }}
+			//scrollbar={{ draggable: true }}
+			onSwiper={(swiper) => console.log(swiper)}
+			onSlideChange={() => console.log("slide change")}>
+			<section className={Style.produtos}>
+				<SwiperSlide>
+					<div className={Style.Bar}>
+						<img src={Rotor} alt="" />
+						<h3>Rotor do motor Pálio Punto</h3>
+					</div>
+				</SwiperSlide>
+				<SwiperSlide>
+					<div className={Style.Bar}>
+						<img src={Corcel} alt="" />
+						<h3>Solenóide para motor de Corcel</h3>
+					</div>
+				</SwiperSlide>
+				<SwiperSlide>
+					<div className={Style.Bar}>
+						<img src={Montana} alt="" />
+						<h3>Solenóide para motor de Montana</h3>
+					</div>
+				</SwiperSlide>
+				<SwiperSlide>
+					<div className={Style.Bar}>
+						<img src={Perkins} alt="" />
+						<h3>Solenóide para motor de trator PKS</h3>
+					</div>
+				</SwiperSlide>
+				<SwiperSlide>
+					<div className={Style.Bar}>
+						<img src={Mt} alt="" />
+						<h3>Solenóide para motor do 29MT</h3>
+					</div>
+				</SwiperSlide>
+				<SwiperSlide>
+					<div className={Style.Bar}>
+						<img src={Valvula} alt="" />
+						<h3>Valvula do motor da scania</h3>
+					</div>
+				</SwiperSlide>
+			</section>
+		</Swiper>
+	);
 }
 
 export default Testando;
