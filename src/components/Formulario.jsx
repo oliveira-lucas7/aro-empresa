@@ -79,6 +79,7 @@ function Formulario() {
             </div>
             <div className={Style.checkUm}>
                 <input type="checkbox" 
+                className={Style.Check}
                 name="checkUm" 
                 id="" 
                 onChange={(e) => setCheckUm(e.target.value)}
@@ -88,6 +89,7 @@ function Formulario() {
             </div>
             <div className={Style.checkDois}>
                 <input type="checkbox" 
+                className={Style.Check}
                 name="checkDois" 
                 id="" 
                 onChange={(e) => setCheckDois(e.target.value)}
