@@ -1,261 +1,254 @@
-.Formulario{
-    background-color: #5b5b5b;
-    height: 45rem;
-    margin-top: 3%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 6rem;
-    justify-content: center;
-    color: black;
+.Formulario {
+  background-color: #5b5b5b;
+  height: 45rem;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+  justify-content: center;
+  color: black;
 }
 
-.NomeMail{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    width: 60rem;
-    align-items: center;
+.NomeMail {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 60rem;
+  align-items: center;
 }
 
-.text{
-    background: none;
-    border-bottom: 1px solid black;
-    width: 25rem;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+.text {
+  background: none;
+  border-bottom: 1px solid black;
+  width: 25rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
-.CampoInfos{
-    background-color: #D9D9D9;
-    height: 85%;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.CampoInfos {
+  background-color: #d9d9d9;
+  height: 85%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.TextDuvida{
-    width: 96%;
-    height: 10rem;
-    border-radius: 8px;
-    border: 1px solid black;
-    background: none;
+.TextDuvida {
+  width: 96%;
+  height: 10rem;
+  border-radius: 8px;
+  background: none;
+  border: 1px solid black;
 }
 
-.duvida{
-    width: 56rem;
-    margin-bottom: 2%;
+.duvida {
+  width: 56rem;
+  margin-bottom: 2%;
 }
 
-h3{
-    display: flex;
-    align-items: flex-start;
+h3 {
+  display: flex;
+  align-items: flex-start;
 }
 
-h4{
-    font-size: 19px;
+h4 {
+  font-size: 19px;
 }
 
 .envio {
-    position: relative;
-    display: inline-block;
-    margin: 15px;
-    padding: 15px 30px;
-    text-align: center;
-    font-size: 18px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    color: black;
-    background: white;
-    cursor: pointer;
-    transition: ease-out 0.5s;
-    border: 2px solid #DAA540;
-    border-radius: 10px;
-    box-shadow: inset 0 0 0 0 #DAA540;
-    top: 10%;
-  }
-  
-  .envio:hover {
-    color: white;
-    box-shadow: inset 0 -100px 0 0 #DAA540;
-  }
-  
-  .envio:active {
-    transform: scale(0.9);
-  }
-
-@media screen and (min-width: 768px) and (max-width:768px)
-{
-    .NomeMail{
-        flex-direction: column;
-        width: 33rem;
-    }
-    .text{
-        width: 32.5rem;
-    }
-    .TextDuvida{
-        width: 88%;
-        height: 10rem;
-        border-radius: 8px;
-        border: none;
-    } 
-    .duvida{
-        width: 38rem;
-        margin-bottom: 2%;
-    }
-    h2{
-        font-size: 20px;
-    }
-    h3{
-        font-size: 15px;
-    }
-}  
-
-@media screen and (min-width: 426px) and (max-width: 767px)
-{
-    .CampoInfos{
-        width: 22.5rem;
-    }
-    .NomeMail{
-        flex-direction: column;
-        width: 20rem;
-    }
-    .duvida{
-        width: 21rem;
-        margin-bottom: 2%;
-    }
-    h2{
-        font-size: 17px;
-    }
-    h3{
-        font-size: 12px;
-    }
-    h4{
-        font-size: 14px;
-    }
-    .text{
-        width: 19rem;
-    }
-    span{
-        font-size: 11px;
-    }
-    .envio{
-        padding: 15px 25px;
-    }
-    .Formulario{
-        height: 43rem;
-    }
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
+  background: white;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #daa540;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #daa540;
+  top: 10%;
 }
 
-@media screen and (min-width: 375px) and (max-width: 425px)
-{
-    .CampoInfos{
-        width: 22.5rem;
-    }
-    .NomeMail{
-        flex-direction: column;
-        width: 20rem;
-    }
-    .duvida{
-        width: 21rem;
-        margin-bottom: 2%;
-    }
-    h2{
-        font-size: 17px;
-    }
-    h3{
-        font-size: 12px;
-    }
-    h4{
-        font-size: 14px;
-    }
-    .text{
-        width: 19rem;
-    }
-    span{
-        font-size: 11px;
-    }
-    .envio{
-        padding: 15px 25px;
-    }
-    .Formulario{
-        height: 43rem;
-    }
+.envio:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #daa540;
 }
 
-
-@media screen and (min-width: 321px) and (max-width: 375px)
-{
-    .CampoInfos{
-        width: 20rem;
-    }
-    .NomeMail{
-        flex-direction: column;
-        width: 20rem;
-    }
-    .duvida{
-        width: 18rem;
-        margin-bottom: 2%;
-    }
-    h2{
-        font-size: 15px;
-    }
-    h3{
-        font-size: 12px;
-    }
-    h4{
-        font-size: 14px;
-    }
-    .text{
-        width: 16rem;
-    }
-    span{
-        font-size: 10px;
-    }
-    .envio{
-        padding: 12px 20px;
-    }
-    .Formulario{
-        height: 43rem;
-    }
+.envio:active {
+  transform: scale(0.9);
 }
 
+@media screen and (min-width: 768px) and (max-width: 768px) {
+  .NomeMail {
+    flex-direction: column;
+    width: 33rem;
+  }
+  .text {
+    width: 32.5rem;
+  }
+  .TextDuvida {
+    width: 88%;
+    height: 10rem;
+    border-radius: 8px;
+    border: none;
+  }
+  .duvida {
+    width: 38rem;
+    margin-bottom: 2%;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+}
 
-@media screen and (max-width: 320px)
-{
-    .CampoInfos{
-        width: 18rem;
-    }
-    .NomeMail{
-        flex-direction: column;
-        width: 90%;
-    }
-    .duvida{
-        width: 16rem;
-        margin-bottom: 2%;
-    }
-    h2{
-        font-size: 14px;
-    }
-    h3{
-        font-size: 12px;
-    }
-    h4{
-        font-size: 14px;
-    }
-    .text{
-        width: 12rem;
-    }
-    span{
-        font-size: 9px;
-    }
-    .envio{
-        padding: 12px 20px;
-    }
-    .Formulario{
-        height: 41rem;
-    }
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .CampoInfos {
+    width: 22.5rem;
+  }
+  .NomeMail {
+    flex-direction: column;
+    width: 20rem;
+  }
+  .duvida {
+    width: 21rem;
+    margin-bottom: 2%;
+  }
+  h2 {
+    font-size: 17px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  .text {
+    width: 19rem;
+  }
+  span {
+    font-size: 11px;
+  }
+  .envio {
+    padding: 15px 25px;
+  }
+  .Formulario {
+    height: 43rem;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .CampoInfos {
+    width: 22.5rem;
+  }
+  .NomeMail {
+    flex-direction: column;
+    width: 20rem;
+  }
+  .duvida {
+    width: 21rem;
+    margin-bottom: 2%;
+  }
+  h2 {
+    font-size: 17px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  .text {
+    width: 19rem;
+  }
+  span {
+    font-size: 11px;
+  }
+  .envio {
+    padding: 15px 25px;
+  }
+  .Formulario {
+    height: 43rem;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .CampoInfos {
+    width: 20rem;
+  }
+  .NomeMail {
+    flex-direction: column;
+    width: 20rem;
+  }
+  .duvida {
+    width: 18rem;
+    margin-bottom: 2%;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  .text {
+    width: 16rem;
+  }
+  span {
+    font-size: 10px;
+  }
+  .envio {
+    padding: 12px 20px;
+  }
+  .Formulario {
+    height: 43rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .CampoInfos {
+    width: 18rem;
+  }
+  .NomeMail {
+    flex-direction: column;
+    width: 90%;
+  }
+  .duvida {
+    width: 16rem;
+    margin-bottom: 2%;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  .text {
+    width: 12rem;
+  }
+  span {
+    font-size: 9px;
+  }
+  .envio {
+    padding: 12px 20px;
+  }
+  .Formulario {
+    height: 41rem;
+  }
 }
