@@ -30,9 +30,9 @@ function Empresa() {
           </div>
           <div>
             <p>
-              Nossa empresa tem como ética a garantia de que nossos produtos são
-              de extrema qualidade e segurança, assegurando que os fornecedores
-              de nossas peças estão alinhados com a nossa ética
+              Temos a garantia de que nossos produtos são de extrema qualidade e
+              segurança, assegurando que os nossos fornecedores estão alinhados
+              com a nossa ética
             </p>
           </div>
         </div>
