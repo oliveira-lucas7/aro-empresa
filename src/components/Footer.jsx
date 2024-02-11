@@ -7,19 +7,21 @@ function Footer() {
 		<section className={Style.FtGeral}>
 			<div className={Style.IconesGeral}>
 				<div>
-					<a href="https://www.instagram.com/lucas_rodrigoo9?igsh=MTdzcTczenI1Zmgycg%3D%3D&utm_source=qr">
+					<a
+						target="blank"
+						href="https://www.instagram.com/lucas_rodrigoo9?igsh=MTdzcTczenI1Zmgycg%3D%3D&utm_source=qr">
 						<FaInstagram className={Style.Instagram} />
 						<h3>lucas_rodrigoo9</h3>
 					</a>
 				</div>
 				<div>
-					<a href="https://wa.me/5514997791223">
+					<a target="blank" href="https://wa.me/5514997791223">
 						<FaWhatsapp className={Style.Whats} />
 						<h3>Lucas Oliveira</h3>
 					</a>
 				</div>
 				<div>
-					<a href="mailto:lucasrodrigoclash038@gmail.com">
+					<a target="blank" href="mailto:lucasrodrigoclash038@gmail.com">
 						<FaEnvelope className={Style.Mail} />
 						<h3>lucasrodrigoclash038@gmail.com</h3>
 					</a>
