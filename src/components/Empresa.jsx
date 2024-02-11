@@ -7,7 +7,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 function Empresa() {
 	return (
-		<section className={Style.GeralEmpresa}>
+		<section className={Style.GeralEmpresa} id="empresa">
 			<h2 className={Style.SobreEmpresa}>Sobre a empresa</h2>
 			<div className={Style.SobEmpresa}>
 				<div className={Style.ContainerInfo}>

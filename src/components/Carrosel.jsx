@@ -66,7 +66,7 @@ function Testando() {
 			onSlideChange={() => console.log("slide change")}>
 			<section className={Style.produtos}>
 				<SwiperSlide>
-					<div className={Style.Bar}>
+					<div className={Style.Bar} id="produtos">
 						<img src={Rotor} alt="" />
 						<h3>Rotor do motor Pálio Punto</h3>
 					</div>
