@@ -26,3 +26,18 @@
 h3 {
 	text-transform: none;
 }
+
+span {
+	font-weight: 500;
+}
+
+.Finalizando {
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 475px) {
+	h3 {
+		display: none;
+	}
+}
