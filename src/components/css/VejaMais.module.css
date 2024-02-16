@@ -101,10 +101,10 @@
 		width: 18rem;
 		font-size: 8px;
 	}
-
 	.fundo img {
-		height: 13rem;
-		width: 13rem;
+		height: 17.2rem;
+		width: 17.2rem;
+		position: initial;
 	}
 
 	.texto h1 {
